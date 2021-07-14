@@ -1,0 +1,5 @@
+uri:
+  base: https://www.metaweather.com/api/location
+  search:
+    city:  ${uri.base}/search/?query=
+    woeid: ${uri.base}/
